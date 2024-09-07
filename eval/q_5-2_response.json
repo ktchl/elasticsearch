@@ -1,0 +1,66 @@
+{
+  "took": 1,
+  "timed_out": false,
+  "_shards": {
+    "total": 1,
+    "successful": 1,
+    "skipped": 0,
+    "failed": 0
+  },
+  "hits": {
+    "total": {
+      "value": 1536,
+      "relation": "eq"
+    },
+    "max_score": null,
+    "hits": []
+  },
+  "aggregations": {
+    "agg_title": {
+      "doc_count_error_upper_bound": 0,
+      "sum_other_doc_count": 1253,
+      "buckets": [
+        {
+          "key": "",
+          "doc_count": 215
+        },
+        {
+          "key": "Not for me",
+          "doc_count": 12
+        },
+        {
+          "key": "Huge",
+          "doc_count": 11
+        },
+        {
+          "key": "Poor quality",
+          "doc_count": 11
+        },
+        {
+          "key": "Disappointed",
+          "doc_count": 8
+        },
+        {
+          "key": "Just ok",
+          "doc_count": 6
+        },
+        {
+          "key": "Boxy",
+          "doc_count": 5
+        },
+        {
+          "key": "Disappointing",
+          "doc_count": 5
+        },
+        {
+          "key": "Not as expected",
+          "doc_count": 5
+        },
+        {
+          "key": "Not as pictured",
+          "doc_count": 5
+        }
+      ]
+    }
+  }
+}

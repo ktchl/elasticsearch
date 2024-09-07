@@ -1,0 +1,66 @@
+{
+  "took": 1,
+  "timed_out": false,
+  "_shards": {
+    "total": 1,
+    "successful": 1,
+    "skipped": 0,
+    "failed": 0
+  },
+  "hits": {
+    "total": {
+      "value": 5464,
+      "relation": "eq"
+    },
+    "max_score": null,
+    "hits": []
+  },
+  "aggregations": {
+    "agg_title": {
+      "doc_count_error_upper_bound": 0,
+      "sum_other_doc_count": 4344,
+      "buckets": [
+        {
+          "key": "",
+          "doc_count": 925
+        },
+        {
+          "key": "Love it!",
+          "doc_count": 42
+        },
+        {
+          "key": "Beautiful",
+          "doc_count": 28
+        },
+        {
+          "key": "Love",
+          "doc_count": 22
+        },
+        {
+          "key": "Gorgeous",
+          "doc_count": 19
+        },
+        {
+          "key": "Love!",
+          "doc_count": 18
+        },
+        {
+          "key": "Love this dress!",
+          "doc_count": 17
+        },
+        {
+          "key": "Perfect",
+          "doc_count": 17
+        },
+        {
+          "key": "Beautiful!",
+          "doc_count": 16
+        },
+        {
+          "key": "Cute top",
+          "doc_count": 16
+        }
+      ]
+    }
+  }
+}

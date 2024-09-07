@@ -1,0 +1,25 @@
+{
+  "size": 0,
+  "query": {
+    "range": {
+      "Rating": {
+        "lte": 2
+      }
+    }
+  },
+  "aggs": {
+    "classname": {
+      "terms": {
+        "field": "Class Name.keyword",
+        "size": 40
+      },
+      "aggs": {
+        "averagerating": {
+          "avg": {
+            "field": "Rating"
+          }
+        }
+      }
+    }
+  }
+}

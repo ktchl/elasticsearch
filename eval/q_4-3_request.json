@@ -1,0 +1,17 @@
+{
+  "size": 0,
+  "aggs": {
+    "division_agg": {
+      "terms": {
+        "field": "Class Name.keyword"
+      },
+      "aggs": {
+        "rating": {
+          "stats": {
+            "field": "Rating"
+          }
+        }
+      }
+    }
+  }
+}

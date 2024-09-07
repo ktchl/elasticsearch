@@ -1,0 +1,159 @@
+{
+  "took": 1,
+  "timed_out": false,
+  "_shards": {
+    "total": 1,
+    "successful": 1,
+    "skipped": 0,
+    "failed": 0
+  },
+  "hits": {
+    "total": {
+      "value": 5464,
+      "relation": "eq"
+    },
+    "max_score": null,
+    "hits": []
+  },
+  "aggregations": {
+    "classname": {
+      "doc_count_error_upper_bound": 0,
+      "sum_other_doc_count": 0,
+      "buckets": [
+        {
+          "key": "Dresses",
+          "doc_count": 1427,
+          "averagerating": {
+            "value": 4.704274702172389
+          }
+        },
+        {
+          "key": "Knits",
+          "doc_count": 1138,
+          "averagerating": {
+            "value": 4.690685413005272
+          }
+        },
+        {
+          "key": "Blouses",
+          "doc_count": 741,
+          "averagerating": {
+            "value": 4.708502024291498
+          }
+        },
+        {
+          "key": "Pants",
+          "doc_count": 328,
+          "averagerating": {
+            "value": 4.725609756097561
+          }
+        },
+        {
+          "key": "Fine gauge",
+          "doc_count": 316,
+          "averagerating": {
+            "value": 4.712025316455696
+          }
+        },
+        {
+          "key": "Jeans",
+          "doc_count": 267,
+          "averagerating": {
+            "value": 4.737827715355805
+          }
+        },
+        {
+          "key": "Sweaters",
+          "doc_count": 265,
+          "averagerating": {
+            "value": 4.750943396226415
+          }
+        },
+        {
+          "key": "Skirts",
+          "doc_count": 243,
+          "averagerating": {
+            "value": 4.695473251028806
+          }
+        },
+        {
+          "key": "Jackets",
+          "doc_count": 202,
+          "averagerating": {
+            "value": 4.7772277227722775
+          }
+        },
+        {
+          "key": "Lounge",
+          "doc_count": 156,
+          "averagerating": {
+            "value": 4.628205128205129
+          }
+        },
+        {
+          "key": "Sleep",
+          "doc_count": 74,
+          "averagerating": {
+            "value": 4.675675675675675
+          }
+        },
+        {
+          "key": "Shorts",
+          "doc_count": 70,
+          "averagerating": {
+            "value": 4.771428571428571
+          }
+        },
+        {
+          "key": "Swim",
+          "doc_count": 61,
+          "averagerating": {
+            "value": 4.819672131147541
+          }
+        },
+        {
+          "key": "Outerwear",
+          "doc_count": 44,
+          "averagerating": {
+            "value": 4.704545454545454
+          }
+        },
+        {
+          "key": "Intimates",
+          "doc_count": 39,
+          "averagerating": {
+            "value": 4.846153846153846
+          }
+        },
+        {
+          "key": "Legwear",
+          "doc_count": 34,
+          "averagerating": {
+            "value": 4.794117647058823
+          }
+        },
+        {
+          "key": "Trend",
+          "doc_count": 33,
+          "averagerating": {
+            "value": 4.757575757575758
+          }
+        },
+        {
+          "key": "Layering",
+          "doc_count": 25,
+          "averagerating": {
+            "value": 4.8
+          }
+        },
+        {
+          "key": "Casual bottoms",
+          "doc_count": 1,
+          "averagerating": {
+            "value": 5.0
+          }
+        }
+      ]
+    }
+  }
+}

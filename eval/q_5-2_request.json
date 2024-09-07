@@ -1,0 +1,18 @@
+{
+  "size": 0,
+  "query": {
+    "range": {
+      "Rating": {
+        "lte": 3
+      }
+    }
+  },
+  "aggs": {
+    "agg_title": {
+      "terms": {
+        "field": "Title.keyword",
+        "size": 10
+      }
+    }
+  }
+}

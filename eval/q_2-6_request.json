@@ -1,0 +1,10 @@
+{
+  "size": 0,
+  "aggs": {
+    "models_agg": {
+      "terms": {
+        "field": "Department Name.keyword"
+      }
+    }
+  }
+}

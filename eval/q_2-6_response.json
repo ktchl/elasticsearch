@@ -1,0 +1,50 @@
+{
+  "took": 0,
+  "timed_out": false,
+  "_shards": {
+    "total": 1,
+    "successful": 1,
+    "skipped": 0,
+    "failed": 0
+  },
+  "hits": {
+    "total": {
+      "value": 7000,
+      "relation": "eq"
+    },
+    "max_score": null,
+    "hits": []
+  },
+  "aggregations": {
+    "models_agg": {
+      "doc_count_error_upper_bound": 0,
+      "sum_other_doc_count": 0,
+      "buckets": [
+        {
+          "key": "Tops",
+          "doc_count": 3204
+        },
+        {
+          "key": "Dresses",
+          "doc_count": 1846
+        },
+        {
+          "key": "Bottoms",
+          "doc_count": 1120
+        },
+        {
+          "key": "Intimate",
+          "doc_count": 485
+        },
+        {
+          "key": "Jackets",
+          "doc_count": 291
+        },
+        {
+          "key": "Trend",
+          "doc_count": 54
+        }
+      ]
+    }
+  }
+}
